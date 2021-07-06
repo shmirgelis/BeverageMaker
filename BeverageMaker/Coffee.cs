@@ -21,7 +21,7 @@ namespace BeverageMaker
             DrinkServings = drinkServings;
             CoffeeStrength = coffeeStrength;
         }
-        public string DrinkHasBeenServed()
+        public string ServingDrink()
         {
             return $"Enjoy your {DrinkName} !!!";
         }

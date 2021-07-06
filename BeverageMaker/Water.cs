@@ -22,7 +22,7 @@ namespace BeverageMaker
            _bottledWater = bottledWater;
         }
 
-        public string DrinkHasBeenServed()
+        public string ServingDrink()
         {
             if (_bottledWater)
             {

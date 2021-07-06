@@ -11,7 +11,7 @@ namespace BeverageMaker
         int DrinkServings { get; }
 
         string MakingDrink();
-        string DrinkHasBeenServed();
+        string ServingDrink();
 
     }
 }

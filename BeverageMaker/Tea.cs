@@ -19,7 +19,7 @@ namespace BeverageMaker
             DrinkServings = drinkServings;
         }
 
-        public string DrinkHasBeenServed()
+        public string ServingDrink()
         {
             return $"Enjoy your {DrinkSize} {DrinkName} !!!";
         }

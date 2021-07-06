@@ -21,7 +21,7 @@ namespace BeverageMaker
             SquashFlavour = squashFlavour;
         }
 
-        public string DrinkHasBeenServed()
+        public string ServingDrink()
         {
             return $"Enjoy your {DrinkName} !!!";
         }
